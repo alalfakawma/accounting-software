@@ -1,0 +1,1125 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"count",
+				"countnodes"
+			],
+			[
+				"insert",
+				"insert_mid"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"is_",
+				"is_object"
+			],
+			[
+				"other",
+				"otherArray"
+			],
+			[
+				"tranas",
+				"transaction"
+			],
+			[
+				"tra",
+				"transaction"
+			],
+			[
+				"cusom",
+				"customValues"
+			],
+			[
+				"custom",
+				"customValues"
+			],
+			[
+				"Affi",
+				"AffiliatesController"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"array_",
+				"array_combine"
+			],
+			[
+				"array",
+				"array_merge"
+			],
+			[
+				"std",
+				"stdlib.h\tstandard header"
+			],
+			[
+				"st",
+				"stdlib.h\tstandard header"
+			],
+			[
+				"array_ps",
+				"array_push"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"hl",
+				"hlRect"
+			],
+			[
+				"affi",
+				"affiliate_id"
+			],
+			[
+				"re",
+				"text-red"
+			],
+			[
+				"tr",
+				"highcharts-tracker"
+			],
+			[
+				"tranexi",
+				"tranExists"
+			],
+			[
+				"repo",
+				"response"
+			],
+			[
+				"flight",
+				"flight_id"
+			],
+			[
+				"all",
+				"allApproved"
+			],
+			[
+				"aff",
+				"affflight"
+			],
+			[
+				"affida",
+				"affidavit"
+			],
+			[
+				"fligh",
+				"flightId"
+			],
+			[
+				"ses",
+				"sessionLife"
+			],
+			[
+				"k",
+				"kadm5_create_principal"
+			],
+			[
+				"flgiht",
+				"flight_id"
+			],
+			[
+				"mail",
+				"mailing_address"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"build",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"togg",
+				"View: Toggle Menu"
+			],
+			[
+				"expand",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"edge",
+				"Edge Theme: Preferences"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"edg",
+				"Edge Theme: Activation"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"find",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"find use",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"expa",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"exna",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"renae",
+				"Rename File"
+			],
+			[
+				"setblade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"bar",
+				"View: Toggle Status Bar"
+			],
+			[
+				"bui",
+				"Build With: C++ Single File"
+			],
+			[
+				"buidl",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"set synpyt",
+				"Set Syntax: Python"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"listpac",
+				"Package Control: List Packages"
+			],
+			[
+				"expan",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"find us",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"togglemini",
+				"View: Toggle Minimap"
+			],
+			[
+				"settn",
+				"Preferences: Settings"
+			],
+			[
+				"php user",
+				"PHPCompanion:Insert Constructor Property"
+			],
+			[
+				"toggmenu",
+				"View: Toggle Menu"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"open ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"new fold",
+				"File: New Folder Relative to Project Root"
+			],
+			[
+				"materia",
+				"Material Theme: Configuration"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 585.0
+	},
+	"console":
+	{
+		"height": 694.0,
+		"history":
+		[
+			"menu"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/lampp/htdocs/accountingsfw/package.json",
+		"/opt/lampp/htdocs/accountingsfw/.env",
+		"/home/aseem/Documents/College Stuffs/ascii.cpp",
+		"/home/aseem/Documents/College Stuffs/ssl.c",
+		"/home/aseem/Documents/Sublime Projects/sites",
+		"/opt/lampp/htdocs/affiliates/app/helper.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/settings/email/edit.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Flights.php",
+		"/opt/lampp/htdocs/affiliates/app/TierProperties.php",
+		"/opt/lampp/htdocs/affiliates/app/Http/Controllers/PromotionController.php",
+		"/opt/lampp/htdocs/affiliates/app/Transactions.php",
+		"/opt/lampp/htdocs/affiliates/app/Http/Controllers/TransactionsController.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/points-modification-email.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/points-approval.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/PointsApproval.php",
+		"/opt/lampp/htdocs/affiliates/app/Listeners/SendPointsApprovalEmail.php",
+		"/opt/lampp/htdocs/affiliates/app/Events/PointsApproval.php",
+		"/opt/lampp/htdocs/affiliates/app/Listeners/SendPointsModifiedEmail.php",
+		"/opt/lampp/htdocs/affiliates/app/Events/PointsModified.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/PointsModified.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/reset-password.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/auth/passwords/reset.blade.php",
+		"/opt/lampp/htdocs/affiliates/routes/api.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/affiliates/transactions.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/assets/js/main.js",
+		"/opt/lampp/htdocs/affiliates/app/Http/Controllers/AffiliatesController.php",
+		"/opt/lampp/htdocs/affiliates/config/auth.php",
+		"/opt/lampp/htdocs/affiliates/app/Http/Controllers/PageController.php",
+		"/opt/lampp/htdocs/affiliates/.env",
+		"/home/aseem/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/aseem/.config/sublime-text-3/Packages/Edge Theme/Preferences.sublime-settings",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/passport/src/Bridge/AccessTokenRepository.php",
+		"/opt/lampp/htdocs/affiliates/composer.json",
+		"/opt/lampp/htdocs/affiliates/app/Http/Kernel.php",
+		"/opt/lampp/htdocs/affiliates/app/Console/Kernel.php",
+		"/opt/lampp/htdocs/affiliates/app/Providers/RouteServiceProvider.php",
+		"/opt/lampp/htdocs/affiliates/app/Notifications/CustomResetPassword.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/approval-email.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/ResetPassword.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php",
+		"/opt/lampp/htdocs/affiliates/database/seeds/EmailTemplatesSeeder.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php",
+		"/opt/lampp/htdocs/affiliates/app/User.php",
+		"/opt/lampp/htdocs/affiliates/app/Http/Controllers/Auth/ResetPasswordController.php",
+		"/opt/lampp/htdocs/affiliates/app/Listeners/SendApprovalEmail.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php",
+		"/opt/lampp/htdocs/affiliates/routes/web.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php",
+		"/opt/lampp/htdocs/affiliates/node_modules/request/lib/auth.js",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBroker.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Support/Facades/Password.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBrokerManager.php",
+		"/opt/lampp/htdocs/affiliates/vendor/laravel/framework/src/Illuminate/Auth/Events/PasswordReset.php",
+		"/opt/lampp/htdocs/affiliates/app/Http/Controllers/Auth/ForgotPasswordController.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/pages/templates/becomeaffiliatesignup-template.blade.php",
+		"/opt/lampp/htdocs/affiliates/public/js/app.js",
+		"/opt/lampp/htdocs/affiliates/resources/assets/js/app.js",
+		"/opt/lampp/htdocs/affiliates/vendor/larsjanssen6/underconstruction/resources/assets/app.js",
+		"/opt/lampp/htdocs/alalfakawma.github.io/CNAME",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/affiliates/addpromotion.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/auth/passwords/email.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/affiliates/addtransaction.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/settings/tiers/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/promotions/tiers.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/settings/mso/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/settings/affiliations/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/vendor/phpoffice/phpspreadsheet/docs/assets/ClassDiagrams/ClassDiagrams.csproj",
+		"/opt/lampp/htdocs/affiliates/node_modules/loud-rejection/api.js",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/prizes/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/AffidavitSubmitConfirmation.php",
+		"/opt/lampp/htdocs/affiliates/app/Providers/EventServiceProvider.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/PointApproval.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/LostPassword.php",
+		"/opt/lampp/htdocs/affiliates/config/filesystems.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/pages/templates/homepage-template.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Mso.php",
+		"/opt/lampp/htdocs/affiliates/app/Listeners/SendAffidavitSubmitConfirmationEmail.php",
+		"/opt/lampp/htdocs/affiliates/app/Listeners/EventListener.php",
+		"/opt/lampp/htdocs/affiliates/app/Events/AffidavitSubmitConfirmation.php",
+		"/opt/lampp/htdocs/affiliates/app/Events/AffiliateDenied.php",
+		"/opt/lampp/htdocs/affiliates/app/Events/Event.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/affidavit-submit-confirmation.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/AffidavitConfirmation.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/AffiliateApproved.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/denial-email.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/lost-password.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/emails/affidavit-confirmation.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Mail/AffidavitConfirmationEmail.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/pages/templates/promotionslist-template.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/pages/templates/promotionsdetails-template.blade.php",
+		"/opt/lampp/htdocs/affiliates/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectMethodDefaultParametersMatcher.php",
+		"/home/aseem/Documents/ssort.c",
+		"/home/aseem/Desktop/ssort.c",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/promotions/participants.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/pages/templates/promotionssignup-template.blade.php",
+		"/opt/lampp/htdocs/convertToHTML/main.js",
+		"/opt/lampp/htdocs/affiliates/resources/assets/js/components/modalsWidget.vue",
+		"/opt/lampp/htdocs/affiliates/resources/assets/js/components/modalWidget.vue",
+		"/opt/lampp/htdocs/affiliates/app/Rules/ValidPhone.php",
+		"/opt/lampp/htdocs/affiliates/resources/assets/sass/app.scss",
+		"/opt/lampp/htdocs/affiliates/resources/views/affiliates/profile_edit.blade.php",
+		"/opt/lampp/htdocs/affiliates/app/Providers/DataSharingProvider.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/pages/templates/becomeaffiliate-template.blade.php",
+		"/home/aseem/Documents/test.c",
+		"/opt/lampp/htdocs/alalfakawma.github.io/index.html",
+		"/opt/lampp/htdocs/convertToHTML/index.html",
+		"/opt/lampp/htdocs/convertToHTML/style.css",
+		"/opt/lampp/htdocs/affiliates/app/Exports/AffiliatesExports.php",
+		"/opt/lampp/htdocs/affiliates/config/lfm.php",
+		"/opt/lampp/htdocs/affiliates/app/Http/Controllers/ManageController.php",
+		"/opt/lampp/htdocs/affiliates/config/under-construction.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/dashboard.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/pages/templates/prizes-template.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/cf/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/assets/js/user.js",
+		"/opt/lampp/htdocs/affiliates/resources/views/_includes/affidavitModal.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/settings/email/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/affiliates/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/assets/js/manage.js",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/cf/edit.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/layouts/app.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/_includes/nav/main.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/layouts/manage.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/affiliates/edit.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/promotions/affidavits.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/manage/promotions/index.blade.php",
+		"/opt/lampp/htdocs/affiliates/resources/views/_includes/nav/menus/custom-menu.blade.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 198.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "accountingsfw.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"email/ed",
+				"affiliates/resources/views/manage/settings/email/edit.blade.php"
+			],
+			[
+				"flig",
+				"affiliates/app/Flights.php"
+			],
+			[
+				"tierpro",
+				"affiliates/app/TierProperties.php"
+			],
+			[
+				"flights",
+				"affiliates/app/Flights.php"
+			],
+			[
+				"helper",
+				"affiliates/app/helper.php"
+			],
+			[
+				"transac",
+				"affiliates/app/Transactions.php"
+			],
+			[
+				"points-",
+				"affiliates/resources/views/emails/points-modification-email.blade.php"
+			],
+			[
+				"points-app",
+				"affiliates/resources/views/emails/points-approval.blade.php"
+			],
+			[
+				"pointsapp",
+				"affiliates/app/Mail/PointsApproval.php"
+			],
+			[
+				"sendpointsapp",
+				"affiliates/app/Listeners/SendPointsApprovalEmail.php"
+			],
+			[
+				"promcontr",
+				"affiliates/app/Http/Controllers/PromotionController.php"
+			],
+			[
+				"send points",
+				"affiliates/app/Listeners/SendPointsApprovalEmail.php"
+			],
+			[
+				"sendpoints",
+				"affiliates/app/Listeners/SendPointsModifiedEmail.php"
+			],
+			[
+				"points",
+				"affiliates/app/Events/PointsModified.php"
+			],
+			[
+				"pointsmodif",
+				"affiliates/app/Mail/PointsModified.php"
+			],
+			[
+				"pointsmo",
+				"affiliates/app/Events/PointsModified.php"
+			],
+			[
+				"sendmo",
+				"affiliates/app/Listeners/SendPointsModifiedEmail.php"
+			],
+			[
+				"pointsod",
+				"affiliates/app/Mail/PointsModified.php"
+			],
+			[
+				"reset-pass",
+				"affiliates/resources/views/emails/reset-password.blade.php"
+			],
+			[
+				"reset",
+				"affiliates/resources/views/auth/passwords/reset.blade.php"
+			],
+			[
+				"points-m",
+				"affiliates/resources/views/emails/points-modification-email.blade.php"
+			],
+			[
+				"pointsmodie",
+				"affiliates/app/Listeners/SendPointsModifiedEmail.php"
+			],
+			[
+				"helpe",
+				"affiliates/app/helper.php"
+			],
+			[
+				"pointsmodi",
+				"affiliates/app/Mail/PointsModified.php"
+			],
+			[
+				"pointsmode",
+				"affiliates/app/Events/PointsModified.php"
+			],
+			[
+				"trancontr",
+				"affiliates/app/Http/Controllers/TransactionsController.php"
+			],
+			[
+				"email/edit",
+				"affiliates/resources/views/manage/settings/email/edit.blade.php"
+			],
+			[
+				"helper.php",
+				"affiliates/app/helper.php"
+			],
+			[
+				"transactions.blade",
+				"affiliates/resources/views/manage/affiliates/transactions.blade.php"
+			],
+			[
+				"ass/main",
+				"affiliates/resources/assets/js/main.js"
+			],
+			[
+				"affcontr",
+				"affiliates/app/Http/Controllers/AffiliatesController.php"
+			],
+			[
+				"tranccon",
+				"affiliates/app/Http/Controllers/TransactionsController.php"
+			],
+			[
+				"afficontr",
+				"affiliates/app/Http/Controllers/AffiliatesController.php"
+			],
+			[
+				"api.php",
+				"affiliates/routes/api.php"
+			],
+			[
+				"trans",
+				"affiliates/app/Http/Controllers/TransactionsController.php"
+			],
+			[
+				"auth.php",
+				"affiliates/config/auth.php"
+			],
+			[
+				".env",
+				"affiliates/.env"
+			],
+			[
+				"pagecontr",
+				"affiliates/app/Http/Controllers/PageController.php"
+			],
+			[
+				"pagectonr",
+				"affiliates/vendor/laravel/passport/src/Bridge/AccessTokenRepository.php"
+			],
+			[
+				"",
+				"affiliates/.env"
+			],
+			[
+				"composer",
+				"affiliates/composer.json"
+			],
+			[
+				"ker",
+				"affiliates/app/Http/Kernel.php"
+			],
+			[
+				"routeser",
+				"affiliates/app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"routeservice",
+				"affiliates/app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"approva",
+				"affiliates/resources/views/emails/approval-email.blade.php"
+			],
+			[
+				"resetpass",
+				"affiliates/app/Mail/ResetPassword.php"
+			],
+			[
+				"api.ph",
+				"affiliates/routes/api.php"
+			],
+			[
+				"points-mo",
+				"affiliates/resources/views/emails/points-modification-email.blade.php"
+			],
+			[
+				"sendpo",
+				"affiliates/app/Listeners/SendPointsModifiedEmail.php"
+			],
+			[
+				"emailsee",
+				"affiliates/database/seeds/EmailTemplatesSeeder.php"
+			],
+			[
+				"sendpass",
+				"affiliates/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php"
+			],
+			[
+				"user.php",
+				"affiliates/app/User.php"
+			],
+			[
+				"resetpas",
+				"affiliates/vendor/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php"
+			],
+			[
+				"customre",
+				"affiliates/app/Notifications/CustomResetPassword.php"
+			],
+			[
+				"help",
+				"affiliates/app/helper.php"
+			],
+			[
+				"approvalemail",
+				"affiliates/app/Listeners/SendApprovalEmail.php"
+			],
+			[
+				"send",
+				"affiliates/app/Listeners/SendApprovalEmail.php"
+			],
+			[
+				"customreset",
+				"affiliates/app/Notifications/CustomResetPassword.php"
+			],
+			[
+				"web.ph",
+				"affiliates/routes/web.php"
+			],
+			[
+				"canreset",
+				"affiliates/vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php"
+			],
+			[
+				"password.php",
+				"affiliates/vendor/laravel/framework/src/Illuminate/Support/Facades/Password.php"
+			],
+			[
+				"sendreset",
+				"affiliates/vendor/laravel/framework/src/Illuminate/Auth/Events/PasswordReset.php"
+			],
+			[
+				"forgot",
+				"affiliates/app/Http/Controllers/Auth/ForgotPasswordController.php"
+			],
+			[
+				"signup.blade",
+				"affiliates/resources/views/pages/templates/becomeaffiliatesignup-template.blade.php"
+			],
+			[
+				"promocontr",
+				"affiliates/app/Http/Controllers/PromotionController.php"
+			],
+			[
+				"affc",
+				"affiliates/app/Http/Controllers/AffiliatesController.php"
+			],
+			[
+				"assets/app",
+				"affiliates/resources/assets/js/app.js"
+			],
+			[
+				"assets/main",
+				"affiliates/resources/assets/js/main.js"
+			],
+			[
+				"resetpasswordblade",
+				"affiliates/resources/views/auth/passwords/reset.blade.php"
+			],
+			[
+				"auth/email",
+				"affiliates/resources/views/auth/passwords/email.blade.php"
+			],
+			[
+				"sendpasswor",
+				"affiliates/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php"
+			],
+			[
+				"web.php",
+				"affiliates/routes/web.php"
+			],
+			[
+				"affiliatecontr",
+				"affiliates/app/Http/Controllers/AffiliatesController.php"
+			],
+			[
+				"addpromo",
+				"affiliates/resources/views/manage/affiliates/addpromotion.blade.php"
+			],
+			[
+				"manage/transa",
+				"affiliates/resources/views/manage/affiliates/transactions.blade.php"
+			],
+			[
+				"addtrans",
+				"affiliates/resources/views/manage/affiliates/addtransaction.blade.php"
+			],
+			[
+				"api",
+				"affiliates/routes/api.php"
+			],
+			[
+				"manage/tiers/ine",
+				"affiliates/resources/views/manage/settings/tiers/index.blade.php"
+			],
+			[
+				"manage/tier",
+				"affiliates/resources/views/manage/promotions/tiers.blade.php"
+			],
+			[
+				"manage/mso",
+				"affiliates/resources/views/manage/settings/mso/index.blade.php"
+			],
+			[
+				"assets/mso",
+				"affiliates/vendor/phpoffice/phpspreadsheet/docs/assets/ClassDiagrams/ClassDiagrams.csproj"
+			],
+			[
+				"api.js",
+				"affiliates/node_modules/loud-rejection/api.js"
+			],
+			[
+				"manage/ms",
+				"affiliates/resources/views/manage/settings/mso/index.blade.php"
+			],
+			[
+				"manage/settings",
+				"affiliates/resources/views/manage/settings/affiliations/index.blade.php"
+			],
+			[
+				"manage/prize",
+				"affiliates/resources/views/manage/prizes/index.blade.php"
+			],
+			[
+				"events",
+				"affiliates/app/Providers/EventServiceProvider.php"
+			],
+			[
+				"mail/pointApp",
+				"affiliates/app/Mail/PointApproval.php"
+			],
+			[
+				"mail/points",
+				"affiliates/app/Mail/PointsModified.php"
+			],
+			[
+				"file",
+				"affiliates/config/filesystems.php"
+			],
+			[
+				"affsubmit",
+				"affiliates/app/Mail/AffidavitSubmitConfirmation.php"
+			],
+			[
+				"home",
+				"affiliates/resources/views/pages/templates/homepage-template.blade.php"
+			],
+			[
+				"emailseed",
+				"affiliates/database/seeds/EmailTemplatesSeeder.php"
+			],
+			[
+				"eventprovid",
+				"affiliates/app/Providers/EventServiceProvider.php"
+			],
+			[
+				"aff-conf",
+				"affiliates/resources/views/emails/affidavit-confirmation.blade.php"
+			],
+			[
+				"affisubmit",
+				"affiliates/app/Mail/AffidavitSubmitConfirmation.php"
+			],
+			[
+				"affidaviemail",
+				"affiliates/app/Mail/AffidavitConfirmationEmail.php"
+			],
+			[
+				"prom",
+				"affiliates/app/Http/Controllers/PromotionController.php"
+			],
+			[
+				"emailtemp",
+				"affiliates/database/seeds/EmailTemplatesSeeder.php"
+			],
+			[
+				"promotioncontr",
+				"affiliates/app/Http/Controllers/PromotionController.php"
+			],
+			[
+				"promotionlist",
+				"affiliates/resources/views/pages/templates/promotionslist-template.blade.php"
+			],
+			[
+				"promodeta",
+				"affiliates/resources/views/pages/templates/promotionsdetails-template.blade.php"
+			],
+			[
+				"promotion",
+				"affiliates/resources/views/pages/templates/promotionsdetails-template.blade.php"
+			],
+			[
+				"promtionctr",
+				"affiliates/app/Http/Controllers/PromotionController.php"
+			],
+			[
+				"homepage",
+				"affiliates/resources/views/pages/templates/homepage-template.blade.php"
+			],
+			[
+				"homepahe",
+				"affiliates/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectMethodDefaultParametersMatcher.php"
+			],
+			[
+				"promo/parti",
+				"affiliates/resources/views/manage/promotions/participants.blade.php"
+			],
+			[
+				"promotionsignup",
+				"affiliates/resources/views/pages/templates/promotionssignup-template.blade.php"
+			],
+			[
+				"main.js",
+				"convertToHTML/main.js"
+			],
+			[
+				"modal",
+				"affiliates/resources/assets/js/components/modalsWidget.vue"
+			],
+			[
+				"becomeaff",
+				"affiliates/resources/views/pages/templates/becomeaffiliatesignup-template.blade.php"
+			],
+			[
+				"vali",
+				"affiliates/app/Rules/ValidPhone.php"
+			],
+			[
+				"ass/app.js",
+				"affiliates/resources/assets/js/app.js"
+			],
+			[
+				"ass/app",
+				"affiliates/resources/assets/sass/app.scss"
+			],
+			[
+				"becomeaffsi",
+				"affiliates/resources/views/pages/templates/becomeaffiliatesignup-template.blade.php"
+			],
+			[
+				"profile_ed",
+				"affiliates/resources/views/affiliates/profile_edit.blade.php"
+			],
+			[
+				"validphone",
+				"affiliates/app/Rules/ValidPhone.php"
+			],
+			[
+				"becomeaffsig",
+				"affiliates/resources/views/pages/templates/becomeaffiliatesignup-template.blade.php"
+			],
+			[
+				"datasharin",
+				"affiliates/app/Providers/DataSharingProvider.php"
+			],
+			[
+				"becomeafsign",
+				"affiliates/resources/views/pages/templates/becomeaffiliatesignup-template.blade.php"
+			],
+			[
+				"becomeaffiliate",
+				"affiliates/resources/views/pages/templates/becomeaffiliate-template.blade.php"
+			],
+			[
+				".ev",
+				"affiliates/.env"
+			],
+			[
+				"export",
+				"affiliates/app/Exports/AffiliatesExports.php"
+			],
+			[
+				"styl",
+				"convertToHTML/style.css"
+			],
+			[
+				"lfm.p",
+				"affiliates/config/lfm.php"
+			],
+			[
+				"managecontr",
+				"affiliates/app/Http/Controllers/ManageController.php"
+			],
+			[
+				"under-",
+				"affiliates/config/under-construction.php"
+			],
+			[
+				"dashboar",
+				"affiliates/resources/views/manage/dashboard.blade.php"
+			],
+			[
+				"affiliatesign",
+				"affiliates/resources/views/pages/templates/becomeaffiliatesignup-template.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Sublime Projects/accountingsfw.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

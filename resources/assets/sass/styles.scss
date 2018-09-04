@@ -1,0 +1,21 @@
+// Purchase/Sale form
+.add-purchase-sale-button {
+	position: fixed;
+	bottom: 30px;
+	right: 100px;
+	border-radius: 50%;
+}
+
+.submit-purchase-sale-button {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border-radius: 50%;
+}
+
+.remove-purchase-sale-form-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 50% !important;
+}
