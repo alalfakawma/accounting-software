@@ -15,16 +15,17 @@ class CreatePurchasesTable extends Migration
     {
         Schema::create('purchases', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('client_id');
             $table->integer('hsn_code');
             $table->string('name');
             $table->integer('quantity')->unsigned();
             $table->string('unit');
             $table->bigInteger('taxable_value');
             $table->smallInteger('tax_rate')->unsigned();
-            $table->smallInteger('igst')->unsigned()->nullable();
-            $table->smallInteger('cgst')->unsigned()->nullable();
-            $table->smallInteger('sgst')->unsigned()->nullable();
-            $table->smallInteger('cess')->unsigned()->nullable();
+            $table->integer('igst')->unsigned()->nullable();
+            $table->integer('cgst')->unsigned()->nullable();
+            $table->integer('sgst')->unsigned()->nullable();
+            $table->integer('cess')->unsigned()->nullable();
             $table->timestamps();
         });
     }

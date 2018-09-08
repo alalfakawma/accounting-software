@@ -18,6 +18,9 @@
                 <i class="fa fa-check"></i>
             </span>
         </div>
+        <div class="loading-spinner has-text-primary" :class="{ 'is-hidden' : !submitting }">
+        	<i class="fa fa-refresh fa-5x"></i>
+        </div>
     </div>
 </template>
 
@@ -26,6 +29,7 @@
     	data() {
     		return {
                 purchaseForms: [{id: 1, enabled: true}], // default 1 purchase form
+                submitting: false
     		}
     	},
         methods: {
@@ -34,22 +38,31 @@
             },
             submitPurchaseForm() {
                 let formData = [];
+                const self = this;
                 this.$children.forEach(child => {
                     // Only if enabled child
                     if (child.enabled) {
                         formData.push(child.bundleData());
                     }
                 });
-                axios.post('/api/purchase/store', {
-                    data: JSON.stringify(formData)
-                }).then(r => {
-                    console.log(r);
-                    // Once finished reset the forms
-                    this.$children[0].resetForm();
-                    this.purchaseforms = [{id: 1, enabled: true}];
-                }).catch(e => {
-                    console.error(e);
-                });
+                // Data is bundled, check if null values still exist, if they do, remove them
+                if (formData.length == 0) {
+                	self.$children[0].resetForm();
+                    self.purchaseforms = [{id: 1, enabled: true}];
+                } else {
+            		this.submitting = true;
+	                axios.post('/api/purchase/store', {
+	                    data: JSON.stringify(formData)
+	                }).then(r => {
+	                    // Once finished reset the forms
+	                    self.$children[0].resetForm();
+	                    self.purchaseforms = [{id: 1, enabled: true}];
+	                    this.submitting = false;
+	                }).catch(e => {
+	                	this.submitting = false;
+	                    console.error(e);
+	                });
+                }
             }
         }
     }

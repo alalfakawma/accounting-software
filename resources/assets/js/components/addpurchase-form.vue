@@ -11,13 +11,13 @@
     			<div class="field">
     			  <label class="label">GSTIN</label>
     			  <div class="control">
-    			    <input class="input" type="text" v-model="gstin">
+    			    <input @input="checkGSTIN()" class="input" type="text" v-model="gstin">
     			  </div>
     			</div>
     			<div class="field">
     			  <label class="label">HSN Code</label>
     			  <div class="control">
-    			    <input class="input" type="text" v-model="hsncode">
+    			    <input class="input" type="number" v-model="hsncode">
     			  </div>
     			</div>
     			<div class="field">
@@ -98,7 +98,7 @@
     			cgst: null,
     			sgst: null,
     			cess: null,
-    			enabled: true
+    			enabled: true,
     		}
     	},
     	props: {
@@ -121,19 +121,23 @@
                 }
     		},
     		bundleData() {
-    			let data = [];
-    			data.push(this.gstin);
-    			data.push(this.hsncode);
-    			data.push(this.name);
-    			data.push(this.quantity);
-    			data.push(this.unit);
-    			data.push(this.taxablevalue);
-    			data.push(this.taxrate);
-    			data.push(this.igst);
-    			data.push(this.cgst);
-    			data.push(this.sgst);
-    			data.push(this.cess);
-    			return data;
+                if (this.gstin == null || this.hsncode == null || this.name == null || this.quantity == 0 || this.unit == null || this.taxablevalue == null || this.taxrate == null) {
+                    return null;
+                } else {
+        			return { // Bundle all the data and return and object
+                        gstin: this.gstin,
+                        hsncode: this.hsncode,
+                        name: this.name,
+                        quantity: this.quantity,
+                        unit: this.unit,
+                        taxablevalue: this.taxablevalue,
+                        taxrate: this.taxrate,
+                        igst: this.igst,
+                        cgst: this.cgst,
+                        sgst: this.sgst,
+                        cess: this.cess
+                    };
+                }
     		},
     		resetForm() {
     			this.gstin = null;
@@ -148,7 +152,16 @@
     			this.sgst = null;
     			this.cess = null;
     			this.enabled = true;
-    		}
+    		},
+            checkGSTIN() {
+                axios.get('/api/client/checkGSTIN', {
+                    gstin: this.gstin,
+                }).then(r => {
+                    console.log(r.data);
+                }).catch(e => {
+                    console.error(e);
+                });
+            }
     	}
     }
 </script>
