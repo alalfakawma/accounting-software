@@ -13,14 +13,12 @@
         		<i class="fa fa-plus"></i>
         	</span>
         </div>
-        <div @click="submitPurchaseForm()" class="button is-success is-large submit-purchase-sale-button">
+        <div :disabled="errors.any()" @click="submitPurchaseForm()" class="button is-success is-large submit-purchase-sale-button">
             <span class="icon">
                 <i class="fa fa-check"></i>
             </span>
         </div>
-        <div class="loading-spinner has-text-primary" :class="{ 'is-hidden' : !submitting }">
-        	<i class="fa fa-refresh fa-5x"></i>
-        </div>
+        <b-loading  :active.sync="isUploading"></b-loading>
     </div>
 </template>
 
@@ -29,7 +27,7 @@
     	data() {
     		return {
                 purchaseForms: [{id: 1, enabled: true}], // default 1 purchase form
-                submitting: false
+                isUploading: false
     		}
     	},
         methods: {
@@ -37,32 +35,37 @@
                 this.purchaseForms.push({id: (this.purchaseForms.length + 1), enabled: true}); // increment the amount of purchase forms
             },
             submitPurchaseForm() {
-                let formData = [];
-                const self = this;
-                this.$children.forEach(child => {
-                    // Only if enabled child
-                    if (child.enabled) {
-                        formData.push(child.bundleData());
+                this.$validator.validateScopes().then(result => {
+                    if (result) {
+                        this.isUploading = true;
+                        let formData = [];
+                        const self = this;
+                        this.$children.forEach(child => {
+                            // Only if enabled child
+                            if (child.enabled) {
+                                formData.push(child.bundleData());
+                            }
+                        });
+                        axios.post('/api/purchase/store', {
+                            data: JSON.stringify(formData)
+                        }).then(r => {
+                            // Once finished reset the forms
+                            self.$children[0].resetForm();
+                            self.purchaseforms = [{id: 1, enabled: true}];
+                            this.isUploading = false;
+                        }).catch(e => {
+                            console.error(e);
+                            this.isUploading = false;
+                            this.$toast.open({
+                                duration: 4000,
+                                message: 'Ooops! An error has occured, please try again!',
+                                type: 'is-danger'
+                            });
+                        });
                     }
+                }).catch((e) => {
+                    console.error(e);
                 });
-                // Data is bundled, check if null values still exist, if they do, remove them
-                if (formData.length == 0) {
-                	self.$children[0].resetForm();
-                    self.purchaseforms = [{id: 1, enabled: true}];
-                } else {
-            		this.submitting = true;
-	                axios.post('/api/purchase/store', {
-	                    data: JSON.stringify(formData)
-	                }).then(r => {
-	                    // Once finished reset the forms
-	                    self.$children[0].resetForm();
-	                    self.purchaseforms = [{id: 1, enabled: true}];
-	                    this.submitting = false;
-	                }).catch(e => {
-	                	this.submitting = false;
-	                    console.error(e);
-	                });
-                }
             }
         }
     }

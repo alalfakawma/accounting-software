@@ -21,6 +21,7 @@ class PurchaseController extends Controller
 			$p->client_id = Client::where('gstin', $data->gstin)->pluck('id')->first();
 			$p->hsn_code = $data->hsncode;
 			$p->name = $data->name;
+			$p->price = $data->price;
 			$p->quantity = $data->quantity;
 			$p->unit = $data->unit;
 			$p->taxable_value = $data->taxablevalue;

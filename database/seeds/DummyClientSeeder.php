@@ -12,11 +12,13 @@ class DummyClientSeeder extends Seeder
      */
     public function run()
     {
-    	// Create dummy client
-    	$client = new Client();
-    	$client->name = "Dummy Client";
-    	$client->gstin = "283947562893921";
-        $client->slug = str_slug("Dummy Client");
-    	$client->save();
+        // Create dummy client
+        for ($i=1; $i <= 5; $i++) { 
+            $client = new Client();
+            $client->name = "Dummy Client " . $i;
+            $client->gstin = mt_rand(111111111111111, 999999999999999);
+            $client->slug = str_slug("Dummy Client " . $i);
+            $client->save();
+        }
     }
 }

@@ -18,6 +18,7 @@ class CreatePurchasesTable extends Migration
             $table->integer('client_id');
             $table->integer('hsn_code');
             $table->string('name');
+            $table->integer('price')->unsigned();
             $table->integer('quantity')->unsigned();
             $table->string('unit');
             $table->bigInteger('taxable_value');

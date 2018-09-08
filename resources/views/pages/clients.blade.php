@@ -18,13 +18,17 @@
 				</tr>
 			</thead>
 			<tbody>
-				@foreach ($clients as $client)
+				@foreach ($clients as $i => $client)
 					<tr>
 						<td>{{ $client->name }}</td>
 						<td>{{ $client->gstin }}</td>
 						<td>
 							<a href="{{ route('overview-client', $client->slug) }}" class="button is-small is-success has-text-weight-bold">VIEW</a>
-							<a href="#" class="button is-small is-danger has-text-weight-bold">DELETE</a>
+							<form action="{{ route('delete-client', $client->id) }}" class="is-hidden {{ 'client-delete' . $i }}" method="post">
+								@method('DELETE')
+								@csrf
+							</form>
+							<div @click="clientDelete('{{ 'client-delete' . $i  }}')" class="button is-small is-danger has-text-weight-bold">DELETE</div>
 						</td>
 					</tr>
 				@endforeach
